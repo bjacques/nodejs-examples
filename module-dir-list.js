@@ -1,8 +1,6 @@
 var fs = require("fs");
 
-module.exports = {
-
-  listDirFiles: function(dir, ext, callback) {
+module.exports = function(dir, ext, callback) {
 
     var returnFiles;
     var returnErr;
@@ -14,10 +12,9 @@ module.exports = {
       }
 
       returnFiles = files.filter(function(elm, idx, arr) {
-         return elm.endsWith(ext) ? true : false;
+         return elm.endsWith("." + ext) ? true : false;
       });
 
       callback(null, returnFiles);
     });
-  }
 };

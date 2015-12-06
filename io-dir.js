@@ -9,7 +9,7 @@ fs.readdir(dir, function(err, files) {
   if(err) throw err;
 
   var filesOfInterest = files.filter(function(elm, idx, arr) {
-    return elm.endsWith(ext) ? true : false;
+    return elm.endsWith("." + ext) ? true : false;
   });
 
   filesOfInterest.forEach(function(elm, idx, arr) {
