@@ -1,0 +1,31 @@
+g:\nodejs
+  > learnyounode
+
+
+Atom
+  ALT + R           -> Run script
+  CTRL + SHFT       -> cycle tabs
+  CTRL + SHFT + P   -> open keyboard shortcuts
+
+  CTRL + SHFT + D   -> duplicate line
+  CTRL + SHFT + K   -> delete line
+
+
+Debug
+  F5 start debugging
+  SHFT + F% stop debugging
+  F9 add breakpoint
+  F10 step next
+  F11 step-in
+  SHFT + F11 step-out
+
+  https://github.com/node-inspector/node-inspector
+    node-debug myapp.js
+
+
+Packages
+  Emmet
+    When HTML editing syntax
+
+  advanced-open-file
+    CTRL + ALT + O
