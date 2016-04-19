@@ -1,0 +1,9 @@
+{
+"main": "index",
+"scripts": {
+    "test": "make test"
+    },
+"devDependencies": {
+    "mocha": "0.3.x"
+    }
+}

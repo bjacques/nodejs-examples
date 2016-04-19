@@ -4,13 +4,13 @@ var dir = process.argv[2];
 var ext = process.argv[3];
 
 
-dirList(dir, ext, function(err, files) {
-  files.forEach(function(elm, idx, arr) {
-    console.log(elm);
-  });
-});
+// dirList(dir, ext, function(err, files) {
+//   files.forEach(function(elm, idx, arr) {
+//     console.log(elm);
+//   });
+// });
 
-// testListDirFiles();
+testListDirFiles();
 
 function testListDirFiles() {
 
