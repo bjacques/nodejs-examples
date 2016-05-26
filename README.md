@@ -1,3 +1,9 @@
+## What is this Repository?
+
+I'm learning to code nodejs using the atom editor. The following notes are little reminders of all the cool features I discover along the way.
+
+## My Notes
+
 g:\nodejs
   > learnyounode
 
