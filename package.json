@@ -1,5 +1,8 @@
 {
-"scripts": {
+  "scripts": {
     "test": "mocha test"
-    }
+  },
+  "dependencies": {
+    "yargs": "^4.7.1"
+  }
 }
