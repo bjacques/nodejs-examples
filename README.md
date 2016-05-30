@@ -54,7 +54,7 @@ Packages
 
   refactor
   js-refactor
-  
+
   javascript linter
     npm install -g eslint
 
@@ -82,6 +82,8 @@ Create New App for TDD
 Web Client App
 ---
 > npm install request --save
+
+Use Chrome app named "Postman" for testing http requests
 
 
 Web Server App
