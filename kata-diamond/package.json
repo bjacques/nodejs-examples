@@ -1,0 +1,16 @@
+{
+  "name": "kata-diamond",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^2.5.3",
+    "os": "^0.1.1",
+    "stream-array": "^1.1.2"
+  }
+}
